@@ -67,14 +67,13 @@
 }
 
 .container {
-    display: flex;
-    margin: 100px 225.5px 50px 225.5px;
-    border: 1px solid black;
+    display: block;
+    margin-bottom: 50px;
 }
 .content {
-    width: 156px;
-    /* border: 0px solid black; */
+    width: 150px;
     margin: 0 auto;
+    outline: 1px solid black;
 }
 .item {
     width: 50px;
@@ -89,8 +88,7 @@
     transition: background 0.1s;
 }
 .item-hover:hover {
-  background-color: rgba(32, 18, 95, 0.39);
-
+    background-color: rgba(32, 18, 95, 0.39);
 }
 /* .item:hover {
 } */
